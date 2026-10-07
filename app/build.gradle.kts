@@ -51,4 +51,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    // Compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+// ViewModels para Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+// Coil (Para la imagen asíncrona mostrada en WelcomeScreen, tal como en la referencia del proyecto)
+    implementation("io.coil-kt.coil3:coil-compose:3.0.0-alpha01")
+// Material Icons Extended (Requerido para iconos como el ojo de la contraseña y flechas direccionales)
+    implementation("androidx.compose.material:material-icons-extended:1.6.0")
+
 }
